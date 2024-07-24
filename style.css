@@ -1,0 +1,154 @@
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin: 20px 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #0F172A;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    font-weight: 600;
+    color: #0F172A;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+#logo span {
+    color: #2563eb;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#sign-in ul {
+    display: flex;
+}
+
+.get{
+    background-color: #2563eb;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 40px;
+}
+
+#main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0 50px;
+    color: #0F172A;
+}
+
+#main .main-heading {
+    max-width: 60rem;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+#main h1, p, a{
+    margin: 20px 0;
+}
+
+#main .main-heading span{
+    color: #2563eb;
+}
+
+#main .main-text {
+    max-width: 40rem;
+    margin: 0 50px;
+    font-size: 14px;
+}
+
+.main-btn ul{
+    /* border: 2px solid red; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.main-btn ul li a{
+    text-decoration: none;
+    margin: 20px 10px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 40px;
+    background-color: #0F172A;
+    color: #fff;
+    font-size: 12px;
+}
+
+.main-btn ul li a.video{
+    background-color: transparent;
+    border: 1px solid gray;
+    color: #0F172A;
+}
+
+.main-btn ul li a.video i {
+    color: #2563eb;    
+}
+
+#companies {
+    text-align: center;
+    color: #0F172A;
+}
+
+#companies ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#companies ul li {
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 590px) {
+    #main .main-heading {
+        font-size: 22px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sign-in ul {
+        margin-top: 10px;
+    }
+
+    #logo {
+        margin: 10px 0;
+        font-size: 22px;
+    }
+
+}
