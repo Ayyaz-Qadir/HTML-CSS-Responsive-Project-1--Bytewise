@@ -1,1 +1,1 @@
-# HTML-CSS-Responsive-Project-1--Bytewise
+# HTML-CSS-Responsive-Project
